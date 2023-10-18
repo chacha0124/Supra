@@ -9,7 +9,6 @@
      문의 종류에 따라 문을 열어주거나 잠겨있음을 알려줍니다.
      게임의 진행에 관련된 문을 열었을 때는 EventManager를 통해 게임 진행에 관련된 메서드를 호출합니다.
 
-
 2. Fire
    1) Extinguisher
       소화기 스크립트입니다.
@@ -19,8 +18,6 @@
       불이 붙었을 때나 꺼졌을 때 불의 크기를 조절합니다.
    3) Hittable
       불이 불었을 때나 꺼졌을 때 이벤트 호출을 위한 스크립트입니다.
-
-
 
   3. Managers
      1) GameManager
@@ -33,12 +30,10 @@
      4) UIManager
         메인 메뉴에서 버튼 클릭 시 버튼 활성화/비활성화와 오디오 관련 설정 변경을 담당하는 스크립트입니다.
 
-
     4. Player
       1) Player
         플레이어의 상호작용을 담당하는 스크립트입니다.
         Update에서 Raycast를 통해 객체를 감지하고 해당 객체의 태그에 맞는 함수를 호출합니다.
-
 
     5. Puzzle
       1) ControlStationPuzzleSpaceship
