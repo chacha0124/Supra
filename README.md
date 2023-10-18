@@ -4,7 +4,7 @@
   1) DoorControl
      문을 열고 닫는 스크립트입니다.
      HandScanner를 통해 문을 열고, 일정 시간 뒤 문 범위 내에 플레이어가 없다면 문을 닫습니다.
-  3) HandScanner
+  2) HandScanner
      문을 제어하는 스크립트입니다.
      문의 종류에 따라 문을 열어주거나 잠겨있음을 알려줍니다.
      게임의 진행에 관련된 문을 열었을 때는 EventManager를 통해 게임 진행에 관련된 메서드를 호출합니다.
@@ -19,7 +19,7 @@
    3) Hittable
       불이 불었을 때나 꺼졌을 때 이벤트 호출을 위한 스크립트입니다.
 
-  3. Managers
+  4. Managers
      1) GameManager
         게임의 시작과 엔딩에 관련된 기능을 담당하는 스크립트입니다.
      2) EventManager
